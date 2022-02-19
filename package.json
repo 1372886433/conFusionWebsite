@@ -1,13 +1,20 @@
 {
+<<<<<<< HEAD
   "name": "confusion",
   "version": "1.0.0",
   "description": "This is a website for Ristorante Con Fusion",
+=======
+  "name": "coursera-bootstrap",
+  "version": "1.0.0",
+  "description": "This is a test directory to learn Git and Node.",
+>>>>>>> 928beaa35edbed7051855697cd30e7a3a0bcbb43
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
+<<<<<<< HEAD
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -17,5 +24,22 @@
     "bootstrap": "^4.0.0",
     "jquery": "^3.3.1",
     "popper.js": "^1.12.9"
+=======
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1372886433/coursera-bootstrap.git"
+  },
+  "keywords": [
+    "8910jqka2"
+  ],
+  "author": "Mingzhi Gao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1372886433/coursera-bootstrap/issues"
+  },
+  "homepage": "https://github.com/1372886433/coursera-bootstrap#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+>>>>>>> 928beaa35edbed7051855697cd30e7a3a0bcbb43
   }
 }
