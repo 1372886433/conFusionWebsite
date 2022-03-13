@@ -39,6 +39,8 @@ body {
 
 .carousel {
   background: #512DA8; }
+  .carousel .carousel-caption {
+    bottom: 25%; }
   .carousel .carousel-item {
     height: 300px; }
     .carousel .carousel-item img {
@@ -52,3 +54,12 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+#loginModal .modal-header, #reserveModal .modal-header {
+  background: #512DA8;
+  color: floralwhite; }
+  #loginModal .modal-header .close, #reserveModal .modal-header .close {
+    color: floralwhite; }
+
+#loginModal .modal-body, #reserveModal .modal-body {
+  background: #D1C4E9; }

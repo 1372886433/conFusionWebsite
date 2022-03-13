@@ -56,7 +56,9 @@ body{
 
 .carousel {
     background:$background-dark;
-
+    .carousel-caption{
+        bottom: 25%;
+    }
     .carousel-item {
         height: $carousel-item-height;
         img {
@@ -68,9 +70,23 @@ body{
     }
 }
 
+
 #carouselButton {
     right:0px;
     position: absolute;
     bottom: 0px;
     z-index: 1;
+}
+
+#loginModal, #reserveModal {
+    .modal-header {
+        background:$background-dark;
+        color:floralwhite;
+        .close {
+            color:floralwhite;
+        }
+    }
+    .modal-body {
+        background:$background-pale;
+    }
 }
