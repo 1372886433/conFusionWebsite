@@ -1,1 +1,1 @@
-# coursera-bootstrap
+# The website of conFusion, a restaurant.
